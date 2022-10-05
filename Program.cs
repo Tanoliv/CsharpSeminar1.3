@@ -1,8 +1,8 @@
-﻿// Создание числового ряда от 1 до N.
+﻿// Создание числового ряда  чётных чисел от 1 до N ДЗ - 4
 
-Console.WriteLine("Создание числового ряда от 1 до числа N");
+Console.WriteLine("Создание числового ряда чётных чисел от 1 до числа N");
 
-Console.WriteLine("Введите число:");
+Console.WriteLine("Введите число:"); 
 int n = int.Parse(Console.ReadLine()!);
 
 for (int i = 1;  i < n; i++){
